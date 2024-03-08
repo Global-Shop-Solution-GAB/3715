@@ -1,0 +1,21 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Variable.passed.000015.set("N")
+Function.Intrinsic.UI.ChangeCallerProperty(Variable.passed.000015,"LOCK",1)
+Variable.passed.000119.set("Do Not Remove Part from Inventory")
+Function.Intrinsic.UI.ChangeCallerProperty(Variable.passed.000119,"LOCK",1)
+
+Program.Sub.main.end
+
+Program.Sub.Comments.Start
+${$0$}$SW_3715_14761$}$JCT$}$4/7/2016
+${$1$}$$}$$}$0$}$14761$}$INVS220N-POPULATE-HOOK$}$4/7/2016 8:53:23 AM$}$(Program: INV220GI; Screen: INVS220N)
+
+Program.Sub.Comments.End
+
